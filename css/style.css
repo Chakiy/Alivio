@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Georgia" ;
+    src: url("../fonts/Georgia.ttf");
+}
+
+h2 {
+    font-family: "Georgia";
+    font-weight: 700;
+    font-size: 115px;
+}
