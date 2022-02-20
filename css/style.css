@@ -1,10 +1,145 @@
+@import url(./reset.css);
+@import url(../fonts/Lato/stylesheet.css);
+
 @font-face {
     font-family: "Georgia" ;
     src: url("../fonts/Georgia.ttf");
 }
 
-h2 {
-    font-family: "Georgia";
+
+/* root */
+
+:root {
+    --heading-color : #01996D;
+    --text-color: #424242;
+    --green-zone-text: #fff;
+}
+
+
+/* BODY */
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 20px ;
+}
+
+/* BASE */
+
+.container {
+
+    width: 1370px;
+    /* padding: auto 15px; */
+    margin: 0 auto;
+
+}
+
+.header {
+    /* background-color: red; */
+}
+
+
+/* NAVIGATION */
+
+.navigation {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo_nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+
+    margin: 31px 100px 31px 0;
+}
+
+.nav {
+    display: flex;
+}
+.nav_link {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--text-color);
+    text-transform: capitalize;
+    margin-left: 72px;
+    
+}
+.account {
+    display: flex;
+    align-items: center;
+}
+
+
+.signin {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--text-color);
+    text-transform: capitalize;
+    margin-right: 35px;
+    
+}
+.btn {
+    display: inline-block;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #fff;
+    text-transform: capitalize;
+    background-color: var(--heading-color);
+    border-radius: 4px;
+    overflow: hidden;
+}
+/* btn */
+.trial {
+    padding: 13px 50px;
+}
+
+
+/* WELCOMINGS BLOCK */
+.welcoming {
+
+   
+    background-image: url(../img/welcoming.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.welcoming_block {
+    max-width: 440px ;
+    padding: 175px 0px 336px;
+}
+
+h1 {
+    
+    font-family: "Georgia", sans-serif;
     font-weight: 700;
-    font-size: 115px;
+    font-style: normal;
+    font-size: 65px;
+    line-height: 1.12;
+    color: var(--heading-color);
+    
+}
+.welcoming_desc {
+    
+    margin: 30px 0px 50px;
+    color: var(--text-color);
+}
+/* btn */
+.welcome {
+    padding: 13px 50px;
+
 }
