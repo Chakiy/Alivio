@@ -30,6 +30,7 @@ a:visited {
 /* IMG & SVG */
 
 img, svg {
+    display: block;
     /* vertical-align: top; */
     /* min-width: 100%; */
     /* height: auto; */
